@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cstdlib>
+#include <conio.h>
+#include <time.h>
+#include <algorithm>
+using namespace std;
+
+void minMax(int x[][12],int n)
+{
+
+}
+
+
+int main() {
+	int x[][12] ={
+					{ 62,64,70,72,70,78,80,78,71,72,67,62 },
+					{ 46,52,54,54,56,60,64,61,57,52,37,39 },
+					{ 72,72,73,77,79,83,76,75,79,79,76,71 }
+				};
+	int rows = sizeof(x) / sizeof(x[0]);
+	int cols = sizeof(x[0]) / sizeof(x[0][0]);
+	cout << rows <<"\n"<< cols;
+minMax(x, 3);
+return 0;
+}
